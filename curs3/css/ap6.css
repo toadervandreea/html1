@@ -1,0 +1,19 @@
+p{
+    color: green;
+}
+#primulp,#p2{
+    color: red;
+}
+.pblue{
+    color: blue;
+}
+.pfont{
+    font-size: 35px;
+    color: coral;
+}
+div p{
+    color: chocolate;
+}
+.ididv .pdiv{
+    color: aquamarine;
+}

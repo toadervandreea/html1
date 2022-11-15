@@ -1,0 +1,16 @@
+p{
+    color: red !important;
+    font-weight: bold;
+}
+p:hover{
+    color: blue;
+}
+h1{
+    font-size: 12px;
+}
+#demo{
+    color: red;
+}
+#demo:hover{
+    color: aqua;
+}
