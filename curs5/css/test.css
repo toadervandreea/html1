@@ -1,0 +1,19 @@
+div{
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border: 2px solid red;
+    border-radius: 15px;
+    float: left;
+    overflow: hidden;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 15px;
+    outline-offset: 20px;
+    outline: auto;
+}
+
+#div2{
+    /* display: none; */
+    visibility: hidden;
+}
