@@ -346,6 +346,7 @@ html{
     border: 1px solid #E5E5DB; 
     background: #ffffff; 
     color: #47433F;}
+
     
   .form_settings .submit
   { font: 100% arial; 
@@ -392,3 +393,108 @@ html{
   { background: #E5E5DB;
     color: #47433F;
     border-top: 1px solid #ffffff;}
+
+    /* PROJECT */
+  
+   
+    #project .container {
+      max-width: 1200px;}
+
+    #project .container {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5% 14%;}
+    
+    #project .row{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      background-color: #f2f2f2;
+      padding: 10% 15%;
+    }
+    #project .col:nth-child(1) {
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+    }
+    #project .bg-1 {
+      background-color: #e38826;
+      }   
+    #project .col {
+      width: 33.33%;
+      padding: 8% 6%;
+      box-sizing: border-box;
+    }
+
+    #project h2 {
+      display: block;
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+   }
+   #project h2 {
+    font-family: big shoulders display,sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 20px 0;}
+
+    #project p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+   }
+    #project p {
+      font-family: lexend deca,sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      color: #fff;
+      line-height: 22px;
+      padding-bottom: 80px;
+      margin-top: 0;}
+
+   
+  #project a{
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-family: lexend deca,sans-serif;
+    font-weight: 400;
+    border: 1px solid;
+    border-color: #f2f2f2;
+}
+
+#project a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+ 
+}
+
+#project .bg-1 a {
+  color: #e38826;
+}
+#project .bg-2 {
+  background-color: #006970;
+}
+#project .bg-2 a {
+  color: #006970;
+}
+#project .col:nth-child(3) {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;}
+
+  #project .bg-3 {
+    background-color: #004241;}
+
+    #project .bg-3 a {
+      color: #004241;}
