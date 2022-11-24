@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primul formular</title>
+  </head>
+  <body>
+    <h1>Primul formular</h1>
+    <form action="" method="post">
+      <label for="nume">Nume</label> <br>
+      <input type="text" name="nume" id="nume" placeholder="Nume" value="adiaconitei" required readonly/> <br>
+      <label for="prenume">Prenume</label> <br>
+      <input type="text" name="prenume" id="prenume" placeholder="Prenume" required /> <br>
+      <label for="email">adresa de mail</label> <br>
+      <input type="email" name="emailaddres" id="email"><br>
+      <label for="pass">parola</label><br>
+      <input type="password" name="parola" id="pass"><br>
+
+        <label for="gen">gen</label>
+        <input type="radio" name="gen" id="" value="m">m</input>
+        <input type="radio" name="gen" id="" value="f">f</input>
+        <input type="radio" name="gen" id="" value="n">nan</input><br>
+
+        <label for="perioada curs"></label>
+        <input type="radio" name="curs" id="" value="dimineata" checked>dimineata
+        <input type="radio" name="curs" id="" value="pranz" disabled>pranz
+        <input type="radio" name="curs" id="" value="seara" >seara <br>
+        <label for="limba">limbaje de programare</label><br>
+        <input type="checkbox" name="php" id="" value="php">php <br>
+        <input type="checkbox" name="html" id="" value="html">html <br>
+        <input type="checkbox" name="js" id="" value="js">js <br>
+        <input type="checkbox" name="css" id="" value="css">css <br>
+        <input type="checkbox" name="python" id="" value="python">python <br>
+        
+
+       
+        <br><br>
+      <input type="submit" value="Trimite datele" />
+      <input type="reset" value="sterge datele">
+    </form>
+  </body>
+</html>
