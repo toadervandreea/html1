@@ -715,4 +715,6 @@ button {
   #footer a:hover
   { color: #B48A7C;
     text-decoration: none;}
-
+form{
+    border-radius: 100px;
+}
