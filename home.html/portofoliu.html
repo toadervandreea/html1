@@ -13,45 +13,97 @@
     
     <!-- CSS  -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+      <!-- footer -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap"
+        rel="stylesheet"
+      />
   </head>
 <body>
-      <nav>
-        <div class="navbar">
-          <div class="container nav-container">
-              <input class="checkbox" type="checkbox" name="" id="" />
-              <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-              </div>  
-            <div class="logo">
-              <h1>Breaking Bad</h1>
-            </div>
-            <div class="menu-items">
-              <li class="selected"><a href="acasa.html">Home</a></li>
-              <li><a href="despre.html">About</a></li>
-              <li><a href="blog.html">Blogs</a></li>
-              <li><a href="portofoliu.html">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </div>
-          </div>
+  <nav>
+    <div class="navbar">
+      <div class="container nav-container">
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
         </div>
-      </nav>
-
-
-
-
-
-
-
-
-    <div id="main">
-        aici ve fi afisat portofoliu
+        <div class="logo">
+          <img
+            src="./assets/images/istockphoto-1215839911-612x612.jpg"
+            alt=""
+          />
+        </div>
+        <div class="menu-items">
+          <li class="selected"><a href="acasa.html">Home</a></li>
+          <li><a href="despre.html">About</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="portofoliu.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </div>
+      </div>
     </div>
-    <footer id="footer">
-        <p><a href="acasa.html">Home</a> | <a href="contact.html">Contact</a></p>
-        <p>Copyright &copy; Nume Prenume | <a href="">HTML5</a> | <a href="">CSS</a> </p>
-    </footer>
+  </nav>
+
+  <!-- animation 2 -->
+  <h3 data-text="Breaking bad" id="animation">Breaking bad</h3>
+
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <h3>Breaking<span>bad</span></h3>
+
+      <p class="footer-links">
+        <a href="acasa.html">Home</a>
+        ·
+        <a href="despre.html">About</a>
+        ·
+        <a href="blog.html">Blogs</a>
+        ·
+        <a href="portofoliu.html">Portofolio</a>
+        ·
+        <a href="contact.html">Contact</a>
+      </p>
+
+      <p class="footer-company-name">Breaking Bad © 2022</p>
+
+      <div class="footer-icons">
+        <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+        <a href="https://www.facebook.com/BreakingBad" target="_blank">
+          <ion-icon class="ion" name="logo-facebook"></ion-icon>
+        </a>
+        <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+        <a href="https://twitter.com/breakingbad" target="_blank">
+          <ion-icon class="ion" name="logo-twitter"></ion-icon>
+        </a>
+
+        <!-- <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a> -->
+        <a href="https://www.instagram.com/breakingbad/" target="_blank">
+          <ion-icon class="ion" name="logo-instagram"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <p>Contact Us</p>
+
+      <form action="#" method="post">
+        <input type="text" name="email" placeholder="Email" />
+        <textarea name="message" placeholder="Message"></textarea>
+        <button>Send</button>
+      </form>
+    </div>
+  </footer>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
 
 </body>
 </html>
