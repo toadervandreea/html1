@@ -1,0 +1,12 @@
+tbody tr:nth-child(2n){
+    background-color: palevioletred;
+}
+tbody tr:nth-child(2n+1){
+   background-color: blue;
+}
+tfoot tr:first-child{
+    background-color: blueviolet;
+}
+tfoot tr:last-child{
+    background-color: aqua;
+}
